@@ -13,13 +13,13 @@ export const renderContact = () => {
                 <input type="button" value="Send">
             </div>
             <p>Or take a look at my social networks. </p> 
-            <div class="social-networks">
+            <div class="contact-social-networks">
                 <a href="https://github.com/DorsD" target="_blank"><i class="fab fa-github fa-3x"></i></a>
                 <a href="https://mx.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
                 <!--<a href=""><i id ="share" class="fas fa-share-alt fa-lg"></i></a>--> 
             </div>     
         </div>
-        <div class="back-image-container">
+        <div class="contact-back-image-container">
             <img src="images/rocket.png" alt="skills-image" class="">   
         </div>
         <div class="first-back-image-container">

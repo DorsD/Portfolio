@@ -4,6 +4,7 @@ export const renderHome = () => {
   let main = document.querySelector('#main');
 
   let homeView =  `
+  <div class="home-container">
     <div class="language-menu">
         <p class="language" id="spanish">SP</p>
         <p>|</p>
@@ -25,6 +26,7 @@ export const renderHome = () => {
         <a href="https://mx.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
         <!--<a href=""><i id ="share" class="fas fa-share-alt fa-lg"></i></a>--> 
     </div>
+  </div>  
   `
   main.innerHTML = homeView;
 }

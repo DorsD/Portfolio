@@ -3,30 +3,19 @@ import {renderAbout} from './about.js';
 import {renderPortfolio} from './portfolio.js';
 import {renderContact} from './contact.js';
 
-const appendStyleSheet = (nameSheet) => {
-    let link = document.querySelector('[title="styleSheet"]');
-    link.removeAttribute('href');
-    link.setAttribute('href',nameSheet);
-    console.log(link);
-}
-
 export const router = (route) =>{
     console.log(route)
     switch(route){
       case 'about':
-        appendStyleSheet('aboutStyle.css');
         renderAbout();
         return;
       case 'portfolio':
-        appendStyleSheet('portfolioStyle.css');
         renderPortfolio();
         return;
         case 'contact':
-        appendStyleSheet('contactStyle.css');
         renderContact();
         return;
       default:
-        appendStyleSheet('homeStyle.css');
         renderHome();
         return;
     }
