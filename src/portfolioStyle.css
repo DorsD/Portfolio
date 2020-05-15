@@ -1,0 +1,73 @@
+.main{
+    width: 100%;
+    font-family: text_font;
+    padding:20px;
+}
+
+.projects-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.project-card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:15px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.4);
+    position:relative;
+}
+
+.project-image-container{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: snow;
+    margin-top:0;
+}
+
+.triplife{
+    width: 100px;
+    margin: auto;
+    align-self: center;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4); 
+}
+
+.mimuvi, .dataLovers{
+    width: 100%;
+    margin: auto;
+    align-self: center;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4);
+     
+}
+
+.project-skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}    
+
+.skill{
+    width: 25px;
+    align-self: flex-end;
+    margin: 5px 3px;
+}
+
+.project-info{
+    margin-bottom: 25px;
+}
+
+.project-info span{
+    font-family: text_bold;
+}
+
+.project-links{
+    position: absolute;
+    bottom: 10px; 
+}

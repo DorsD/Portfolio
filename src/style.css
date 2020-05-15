@@ -1,0 +1,77 @@
+@font-face {
+    font-family: title;
+    src: url(../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: text_font;
+    src: url(../fonts/Arimo/Arimo-Regular.ttf);
+}
+
+@font-face {
+    font-family: text_bold;
+    src: url(../fonts/Arimo/Arimo-Bold.ttf);
+}
+
+html, body, section, div, nav, p, img {
+   /* border: 1px solid black;*/
+}
+
+html{
+    background-color: #e8f0f4 /* #deebf1*/ ;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px 30px;
+    box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+/*
+.sticky {
+    position: fixed;
+    top: 0;
+}*/
+
+.menu-option{
+    text-align: center;
+    font-family: text_font;
+    text-decoration: none;
+    color: black;
+    border-bottom:3px solid #e8f0f4;
+    /*  transition-timing-function: ease;
+    transition: border-bottom 1s;*/
+}
+
+.menu-option:hover, .selected {
+    cursor: pointer;
+    font-family: text_bold;
+    border-bottom:3px solid #d23d43;
+}
+
+.menu-option p, .menu-option img{
+   margin:0;
+}
+
+
+.menu-icon{
+    width: 100px;
+}
+
+/*******/
